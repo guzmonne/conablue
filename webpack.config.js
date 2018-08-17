@@ -6,7 +6,7 @@ const WebpackPwaManifest = require('webpack-pwa-manifest');
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
 
   mode: 'development',
 

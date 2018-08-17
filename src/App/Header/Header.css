@@ -1,0 +1,13 @@
+.Header {
+  height: 6rem;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}

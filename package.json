@@ -9,6 +9,8 @@
     "start": "yarn build && webpack-dev-server --history-api-fallback --color"
   },
   "devDependencies": {
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
     "@types/web-bluetooth": "^0.0.4",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
@@ -22,5 +24,10 @@
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.5",
     "webpack-pwa-manifest": "^3.7.1"
+  },
+  "dependencies": {
+    "evergreen-ui": "^3.2.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   }
 }
