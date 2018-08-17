@@ -9,3 +9,20 @@
   justify-content: start;
   padding: 1rem;
 }
+
+.Body label {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.Body pre {
+  text-align: left;
+  width: 100%;
+  min-height: 3rem;
+  background-color: var(--grey);
+  color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+}
