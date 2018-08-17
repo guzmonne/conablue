@@ -1,0 +1,26 @@
+{
+  "name": "bluetooth",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -Rf build",
+    "build": "yarn clean && webpack",
+    "start": "yarn build && webpack-dev-server --history-api-fallback --color"
+  },
+  "devDependencies": {
+    "@types/web-bluetooth": "^0.0.4",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.22.1",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-pwa-manifest": "^3.7.1"
+  }
+}
