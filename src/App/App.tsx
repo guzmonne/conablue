@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Footer } from './Footer/index';
 import { Header } from './Header/index';
-import { Body } from './Body/index';
+import { BodyEnhanced as Body } from './Body/index';
 
 export class App extends React.Component {
   render() {

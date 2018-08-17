@@ -1,5 +1,6 @@
 'use strict';
 
+const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
@@ -14,9 +15,9 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'js/[name]-[chunkhash].js',
-    chunkFilename: 'js/[name]-[chunkhash].js',
-    sourceMapFilename: 'js/[name]-[chunkhash].map'
+    filename: 'js/[name]-[hash].js',
+    chunkFilename: 'js/[name]-[hash].js',
+    sourceMapFilename: 'js/[name]-[hash].map'
   },
 
   module: {
@@ -53,10 +54,12 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'build'),
     compress: true,
-    port: 8000
+    port: 8000,
+    hot: true
   },
 
   plugins: [
+    new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       hash: true,
       title: 'ConaBlue',

@@ -26,8 +26,10 @@
     "webpack-pwa-manifest": "^3.7.1"
   },
   "dependencies": {
+    "@types/recompose": "^0.26.4",
     "evergreen-ui": "^3.2.4",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "recompose": "^0.28.2"
   }
 }

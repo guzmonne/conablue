@@ -1,8 +1,16 @@
 import * as React from 'react';
 import { Button } from 'evergreen-ui';
 
-export var Body = () => (
+interface IBodyProps {
+  onClick: (e: React.PointerEvent) => void;
+  output?: string;
+}
+
+export var Body: React.SFC<IBodyProps> = ({ onClick, output }) => (
   <div className="Body">
-    <Button appearance="blue">Connect!</Button>
+    <Button onClick={onClick} appearance="blue">
+      Connect
+    </Button>
+    <pre>{output}</pre>
   </div>
 );
