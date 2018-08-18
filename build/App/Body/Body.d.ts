@@ -7,5 +7,6 @@ export interface IBodyProps {
     options: OptionShapePropType[];
     selected?: OptionShapePropType;
     loading?: boolean;
+    error?: Error;
 }
 export declare var Body: React.SFC<IBodyProps>;
