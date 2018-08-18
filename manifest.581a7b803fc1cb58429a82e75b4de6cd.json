@@ -1,0 +1,41 @@
+{
+  "icons": [
+    {
+      "src": "icon_512x512.5c3aeeb38fe7549dd2dcc92b252a70ba.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_384x384.b1352834df028f1b5ea029aa8ae9a4fa.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_256x256.2ca288c5e5ba60dfa70e848bbe55da4d.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_192x192.f5f83d4a151714886bd9449ae7bbd86a.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_128x128.e65d150c1b1d15ee38b55c4eb181d590.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icon_96x96.2f3199ad1ca05ff9ccd3ce221bad2730.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "ConaBlue",
+  "short_name": "conablue",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Conatel application to interact with bluetooth devices",
+  "background_color": "#073B4C"
+}
