@@ -26,3 +26,9 @@
   padding: 1em;
   border-radius: 0.5em;
 }
+
+.Body pre.error {
+  background-color: #cc2936;
+  color: #f2c9cc;
+  white-space: normal;
+}

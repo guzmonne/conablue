@@ -6,9 +6,10 @@
   "scripts": {
     "clean": "rm -Rf build",
     "build": "yarn clean && webpack",
-    "start": "yarn build && webpack-dev-server --history-api-fallback --color"
+    "start": "yarn build && webpack-dev-server --quiet --no-info --history-api-fallback --color"
   },
   "devDependencies": {
+    "@types/classnames": "^2.2.6",
     "@types/react": "^16.4.11",
     "@types/react-dom": "^16.0.7",
     "@types/web-bluetooth": "^0.0.4",
@@ -26,7 +27,9 @@
     "webpack-pwa-manifest": "^3.7.1"
   },
   "dependencies": {
+    "@types/es6-promise": "^3.3.0",
     "@types/recompose": "^0.26.4",
+    "classnames": "^2.2.6",
     "evergreen-ui": "^3.2.4",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

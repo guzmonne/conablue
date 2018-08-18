@@ -1,9 +1,11 @@
 import * as React from 'react';
 
-export var Footer = () => (
+export var Footer: React.SFC = () => (
   <div className="Footer">
-    <h2 className="copyright">
+    <h4 className="copyright">
       <span>Copyright - CONATEL {new Date().getFullYear()}</span>
-    </h2>
+    </h4>
   </div>
 );
+
+Footer.displayName = 'Footer';

@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
     "outDir": "./build/",
-    "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
     "jsx": "react",
-    "allowJs": true,
+    "target": "es6",
+    "declaration": true,
+    "module": "commonjs",
     "sourceMap": true,
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "lib": ["es2015", "dom"]
+  },
+  "exclude": ["node_modules"]
 }
